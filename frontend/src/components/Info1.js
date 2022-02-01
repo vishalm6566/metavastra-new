@@ -1,8 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import "./info1.css"
 import Accordion from "./Accordion"
 
 const Info1 = () => {
+    const audio = new Audio();
+    audio.src = "stingers-jugaadsoundeffect.mp3";
+    useEffect(()=>{
+      audio.play()
+    })
 
     const mainImgUrl = "https://womanonblockchain.com/wp-content/uploads/2021/11/amtpv0f8pcqao6sddpsk-300x300.jpg"
     const gridImg1 = "https://womanonblockchain.com/wp-content/uploads/2021/11/amtpv0f8pcqao6sddpsk-300x300.jpg"

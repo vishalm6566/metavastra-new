@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
     Accordion,
     AccordionItem,
@@ -10,6 +11,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 
 
 const Rough = () => {
+ 
     return (
         <>
             <Accordion allowZeroExpanded className='acc'>

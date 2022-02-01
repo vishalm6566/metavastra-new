@@ -1,7 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./style2.css"
 
 const Contact = () => {
+  const audio = new Audio();
+  audio.src = "stingers-jugaadsoundeffect.mp3";
+  useEffect(()=>{
+    audio.play()
+  })
     return (
         <>
         <div className='common-container'>

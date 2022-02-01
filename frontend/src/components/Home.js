@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Video from "./scifiStudio0001-0300.mp4";
 import Sound from "./hover-engine-6391.mp3";
 import "./style.css";
@@ -7,7 +7,11 @@ import Swal from 'sweetalert2'
 
 const Home = () => {
   const [email, setEmail] = useState();
-
+  const audio = new Audio();
+  audio.src = "stingers-jugaadsoundeffect.mp3";
+  useEffect(()=>{
+    audio.play()
+  })
   const audioMute = () => {
     const audio2 = document.getElementById("audio2");
     const muteButton = document.getElementById("mute-btn");

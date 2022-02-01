@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './style.css'
 import AOS from 'aos';
 
 
 
 const Roadmap = () => {
+    const audio = new Audio();
+    audio.src = "stingers-jugaadsoundeffect.mp3";
+
+    useEffect(() => {
+        audio.play()
+  
+    }, []);
 
     AOS.init(
         {

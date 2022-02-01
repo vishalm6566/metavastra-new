@@ -1,10 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./style3.css"
 import { Link, Outlet } from "react-router-dom";
+
 // import Info1 from './Info1';
 
 
 const Allitems = () => {
+    const audio = new Audio();
+    audio.src = "stingers-jugaadsoundeffect.mp3";
+    useEffect(()=>{
+        audio.play()
+    })
     return (
         <>
             <div className="row">

@@ -3,8 +3,11 @@ import "./style2.css"
 
 
 const Opensea = () => {
+    const audio = new Audio();
+    audio.src = "stingers-jugaadsoundeffect.mp3";
 
     useEffect(() => {
+        audio.play()
         window.location.href = "https://opensea.io/metavastra";
     }, []);
 
