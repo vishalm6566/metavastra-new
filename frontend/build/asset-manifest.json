@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cacfaf50.css",
+    "main.js": "/static/js/main.3bf5bb7b.js",
+    "static/js/787.e9fe851e.chunk.js": "/static/js/787.e9fe851e.chunk.js",
+    "static/media/scifiStudio0001-0300.mp4": "/static/media/scifiStudio0001-0300.ac513a97e732abc76ab3.mp4",
+    "static/media/hover-engine-6391.mp3": "/static/media/hover-engine-6391.7393b379bfc1a8442ae9.mp3",
+    "index.html": "/index.html",
+    "main.cacfaf50.css.map": "/static/css/main.cacfaf50.css.map",
+    "main.3bf5bb7b.js.map": "/static/js/main.3bf5bb7b.js.map",
+    "787.e9fe851e.chunk.js.map": "/static/js/787.e9fe851e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cacfaf50.css",
+    "static/js/main.3bf5bb7b.js"
+  ]
+}
