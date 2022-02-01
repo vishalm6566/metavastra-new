@@ -7,13 +7,7 @@ const EmailsSchema = new Schema({
         type : String,
         required : true,
         unique : true,
-        validate(value)
-        {
-            if(!validator.isEmail(value))
-            {
-                throw new Error("email not valid")
-            }
-        }
+      
     },
  
   });
