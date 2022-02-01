@@ -10,7 +10,7 @@ const Roadmap = () => {
 
     useEffect(() => {
         audio.play()
-  
+  // eslint-disable-next-line
     }, []);
 
     AOS.init(

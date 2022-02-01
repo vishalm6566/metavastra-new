@@ -9,6 +9,7 @@ const Opensea = () => {
     useEffect(() => {
         audio.play()
         window.location.href = "https://opensea.io/metavastra";
+        // eslint-disable-next-line
     }, []);
 
 

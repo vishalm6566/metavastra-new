@@ -6,7 +6,8 @@ const About = () => {
   audio.src = "stingers-jugaadsoundeffect.mp3";
   useEffect(()=>{
     audio.play()
-  })
+    // eslint-disable-next-line
+  },[])
     return (
         <>
         <div className='common-container'>

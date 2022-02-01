@@ -11,7 +11,7 @@ router.post("/email", async (req, res) => {
       res.status(400).json({ error: "Error" });
     }
     if (!validator.isEmail(emails.email)) {
-      res.status(400).json({ message: "Something went wrong" });
+      res.status(402).json({ message: "Something went wrong" });
     } else {
       const data = await Emails.findOne({ email: emails.email });
       if (!data) {

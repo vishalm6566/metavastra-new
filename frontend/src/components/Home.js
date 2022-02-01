@@ -11,7 +11,8 @@ const Home = () => {
   audio.src = "stingers-jugaadsoundeffect.mp3";
   useEffect(()=>{
     audio.play()
-  })
+    // eslint-disable-next-line
+  },[])
   const audioMute = () => {
     const audio2 = document.getElementById("audio2");
     const muteButton = document.getElementById("mute-btn");
@@ -49,6 +50,14 @@ const Home = () => {
             icon: 'success',
             title: 'Great',
             text: 'Email submited successfully',
+          })
+        }
+        else if(response.status===402)
+        {
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Enter valid email',
           })
         }
         else if(response.status===401)
