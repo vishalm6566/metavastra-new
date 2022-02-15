@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import "./style3.css"
 import { Link, Outlet } from "react-router-dom";
 import demoImg from "./demo-img.jpg";
@@ -9,10 +9,10 @@ import demoImg from "./demo-img.jpg";
 const Allitems = () => {
     const audio = new Audio();
     audio.src = "stingers-jugaadsoundeffect.mp3";
-    useEffect(()=>{
+    useEffect(() => {
         audio.play()
         // eslint-disable-next-line
-    },[])
+    }, [])
     return (
         <>
             <div className="row">
@@ -122,7 +122,10 @@ const Allitems = () => {
                         </div>
                     </div>
                 </div>
+                <Link to='/privacy-policy' style={{ margin: "10px", padding: "10px", color: "white" }}>Privacy policy</Link>
+                <Link to='/privacy-policy' style={{ margin: "10px", padding: "10px", color: "white" }}>Terms and condition</Link>
             </div>
+
             <Outlet />
             {/* <Routes>
                 < Route exact path=":info1" element={<Info1 />} />

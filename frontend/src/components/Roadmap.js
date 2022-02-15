@@ -1,6 +1,8 @@
 import React,{useEffect} from 'react'
 import './style.css'
 import AOS from 'aos';
+import { Link } from "react-router-dom";
+
 
 
 
@@ -78,6 +80,8 @@ const Roadmap = () => {
                     <p className="object2">IRL Meet Ups and Experiences for Reactor Owners, Team Leaderboards and Merchandise giveaways, New Reacton Opportunities with exclusive giveaways, and the next edition of the Reactor Raceway World Cup!</p>
                     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                 </div>
+                <Link to='/privacy-policy' style={{ margin: "10px", padding: "10px", color: "white", textAlign : "center"}}>Privacy policy</Link>
+                <Link to='/privacy-policy' style={{ margin: "10px", padding: "10px", color: "white", textAlign : "center"}}>Terms and condition</Link>
             </div>
         </>
     )

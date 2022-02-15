@@ -1,0 +1,15 @@
+.main-div{
+    background-image: linear-gradient(to top, #090909 0%, #1e4459 100%);
+    padding: 10%;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: orange;
+    margin: 2%;
+}
+.h3-title{
+    text-align: center;
+    color: orange;
+    margin: 2%;
+}

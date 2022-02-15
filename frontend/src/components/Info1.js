@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import "./info1.css"
-import Accordion from "./Accordion"
+import Accordion from "./Accordion";
+import { Link } from "react-router-dom";
+ 
 
 const Info1 = () => {
     const audio = new Audio();
@@ -48,12 +50,14 @@ const Info1 = () => {
                 <div id='story'>
                     <h1 style={{ padding: '4%', fontFamily: "Gothia Serif", }}>story</h1>
                     <p>When you talk about Bulandshahr, a district in Uttar Pradesh , India, you will be tracked back to the ancient times and will find true events related to the place which happened in 3137 BC, including events related to Mahabharat. <br />
-                    One such event which inspired the creation of The Baran Sanichar Shirt was the discovery of a boy who was found in the district of Bulandshahr in 1867.
-                    The boy was 6 years old, walked on four and ate only raw meat. He was raised by a group of 5 wolves. The name of the boy was Dina Sanichar. <br />
-                    It is beleived that the character of Mowgli in the comic The Jungle Book was inspired by Dina Sanicharls life events. The half wolf on the shirt signifies how the boy was half wolf and half human and still survived for 34 years. <br />
-                    The 5 golden rings on the shirt signifies the protection that the 5 wolves gave to Dina Sanichar for 6 years.
-</p>
+                        One such event which inspired the creation of The Baran Sanichar Shirt was the discovery of a boy who was found in the district of Bulandshahr in 1867.
+                        The boy was 6 years old, walked on four and ate only raw meat. He was raised by a group of 5 wolves. The name of the boy was Dina Sanichar. <br />
+                        It is beleived that the character of Mowgli in the comic The Jungle Book was inspired by Dina Sanicharls life events. The half wolf on the shirt signifies how the boy was half wolf and half human and still survived for 34 years. <br />
+                        The 5 golden rings on the shirt signifies the protection that the 5 wolves gave to Dina Sanichar for 6 years.
+                    </p>
                 </div>
+                <Link to='/privacy-policy' style={{ margin: "10px", padding: "10px", color: "white", textAlign : "center"}}>Privacy policy</Link>
+                <Link to='/privacy-policy' style={{ margin: "10px", padding: "10px", color: "white", textAlign : "center"}}>Terms and condition</Link>
             </div>
         </>
     )

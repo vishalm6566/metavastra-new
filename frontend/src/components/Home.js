@@ -3,6 +3,7 @@ import Video from "./scifiStudio0001-0300.mp4";
 import Sound from "./hover-engine-6391.mp3";
 import "./style.css";
 import Swal from 'sweetalert2'
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -143,6 +144,9 @@ const Home = () => {
               Subscribe
             </button>
           </form>
+          <Link to='/privacy-policy' style={{margin : "10px" , padding : "10px", color : "white"}}>Privacy policy</Link>
+          <Link to='/privacy-policy' style={{margin : "10px" , padding : "10px", color : "white"}}>Terms and condition</Link>
+
         </div>
       </div>
     </>
