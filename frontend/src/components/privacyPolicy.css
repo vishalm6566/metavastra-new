@@ -13,3 +13,9 @@ h1{
     color: orange;
     margin: 2%;
 }
+
+@media (max-width: 800px) {
+    .title-pp{
+        padding-top: 100px;
+    }
+}

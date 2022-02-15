@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
     return (
         <>
             <div className='main-div'>
-                <h1>Metavastra Privacy Policy</h1>
+                <h1 className='title-pp'>Metavastra Privacy Policy</h1>
 
                 This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from www.metavastra.io (the “Site”).
 
@@ -15,7 +15,8 @@ const PrivacyPolicy = () => {
 
                 We collect Device Information using the following technologies:
 
-                - “Cookies” are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit http://www.allaboutcookies.org.
+                - “Cookies” are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit
+                <a href="http://www.allaboutcookies.org.">http://www.allaboutcookies.org.</a>
                 - “Log files” track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
                 - “Web beacons,” “tags,” and “pixels” are electronic files used to record information about how you browse the Site.
 
@@ -36,24 +37,26 @@ const PrivacyPolicy = () => {
                 We share your Personal Information with third parties to help us use your Personal Information, as described above.
 
                 We also use Google Analytics to help us understand how our customers use the Site--
-                you can read more about how Google uses your Personal Information here:  https://www.google.com/intl/en/policies/privacy/.
-                You can also opt-out of Google Analytics here:  https://tools.google.com/dlpage/gaoptout.
+                you can read more about how Google uses your Personal Information here:
+                <a href="https://www.google.com/intl/en/policies/privacy/.">https://www.google.com/intl/en/policies/privacy/.</a>
+                You can also opt-out of Google Analytics here:
+                <a href="https://tools.google.com/dlpage/gaoptout.">https://tools.google.com/dlpage/gaoptout.</a>
 
                 Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.
 
                 <h3 className='h3-title'>BEHAVIOURAL ADVERTISING</h3>
 
-                As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you.  For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s (“NAI”) educational page at http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
-
+                As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you.  For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s (“NAI”) educational page at
+                <a href="http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.">http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.</a>
                 You can opt out of targeted advertising by:
 
-                FACEBOOK - https://www.facebook.com/settings/?tab=ads
-                GOOGLE - https://www.google.com/settings/ads/anonymous
-                BING - https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads
+                FACEBOOK - <a href="https://www.facebook.com/settings/?tab=ads">https://www.facebook.com/settings/?tab=ads</a>
+                GOOGLE - <a href="https://www.google.com/settings/ads/anonymous">https://www.google.com/settings/ads/anonymous</a>
+                BING - <a href="https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads">https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads</a>
 
 
-                Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at:  http://optout.aboutads.info/.
-
+                Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at:  
+                <a href="http://optout.aboutads.info/.">http://optout.aboutads.info/.</a>
                 <h3 className='h3-title'>DO NOT TRACK</h3>
                 Please note that we do not alter our Site’s data collection and use practices when we see a Do Not Track signal from your browser.
 
